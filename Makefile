@@ -24,10 +24,10 @@ LDFLAGS := #-shared
 
 LIBS :=
 
-# define the C++ source files
+# define the C source files
 SRCS := $(wildcard sources/*.c)
 
-OBJS := $(SRCS:.cpp=.o)
+OBJS := $(SRCS:.c=.o)
 
 # define the executable file
 MAIN := exe
