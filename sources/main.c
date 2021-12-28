@@ -32,7 +32,7 @@ void str2BEhex(const char * string) {
 }
 
 int main(int argc, char ** argv, char ** env) {
-    if (argc != 2) {
+    if (2 != argc) {
         printf("Invalid number of arguments! Requires 1 parameter.\n");
         return 0;
     }
